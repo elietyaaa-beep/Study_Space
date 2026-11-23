@@ -59,5 +59,15 @@ namespace Study_Space.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cuplikan_layar_2026_11_23_020341 {
+            get {
+                object obj = ResourceManager.GetObject("Cuplikan layar 2026-11-23 020341", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
