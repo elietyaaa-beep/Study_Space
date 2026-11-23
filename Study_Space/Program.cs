@@ -11,7 +11,7 @@ namespace Study_Space
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Materi());
+            Application.Run(new Login());
         }
     }
 }

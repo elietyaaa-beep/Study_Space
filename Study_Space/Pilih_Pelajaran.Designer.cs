@@ -481,6 +481,7 @@
             Controls.Add(tableLayoutPanel1);
             Name = "Pilih_Pelajaran";
             Text = "Form1";
+            Load += Pilih_Pelajaran_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
