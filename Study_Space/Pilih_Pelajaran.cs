@@ -14,5 +14,10 @@ namespace Study_Space
         {
             InitializeComponent();
         }
+
+        private void Pilih_Pelajaran_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
