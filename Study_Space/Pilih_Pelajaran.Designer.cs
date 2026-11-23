@@ -480,8 +480,7 @@
             Controls.Add(flowLayoutPanel7);
             Controls.Add(tableLayoutPanel1);
             Name = "Pilih_Pelajaran";
-            Text = "Form1";
-            Load += Pilih_Pelajaran_Load;
+            Text = "Pilih Pelajaran";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
