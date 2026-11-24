@@ -291,7 +291,7 @@
             panel2.Controls.Add(label8);
             panel2.Location = new Point(250, 393);
             panel2.Name = "panel2";
-            panel2.Size = new Size(855, 128);
+            panel2.Size = new Size(855, 139);
             panel2.TabIndex = 26;
             // 
             // label7
@@ -299,7 +299,7 @@
             label7.Anchor = AnchorStyles.None;
             label7.AutoSize = true;
             label7.Font = new Font("Century Gothic", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(11, 10);
+            label7.Location = new Point(11, 15);
             label7.Name = "label7";
             label7.Size = new Size(314, 23);
             label7.TabIndex = 21;
@@ -385,6 +385,7 @@
             Controls.Add(tableLayoutPanel1);
             Controls.Add(flowLayoutPanel3);
             Name = "Materi";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Materi";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);

@@ -258,15 +258,15 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.BackColor = Color.FromArgb(192, 255, 192);
+            label6.BackColor = Color.FromArgb(192, 255, 255);
             label6.Font = new Font("Century Gothic", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.Green;
+            label6.ForeColor = Color.Navy;
             label6.Location = new Point(6, 102);
             label6.Name = "label6";
             label6.Padding = new Padding(2, 0, 0, 0);
-            label6.Size = new Size(131, 21);
+            label6.Size = new Size(143, 21);
             label6.TabIndex = 12;
-            label6.Text = "Skor terbaik 2/3";
+            label6.Text = "Belum dikerjakan";
             label6.Click += label6_Click;
             // 
             // flowLayoutPanel9
@@ -480,6 +480,7 @@
             Controls.Add(flowLayoutPanel7);
             Controls.Add(tableLayoutPanel1);
             Name = "Pilih_Pelajaran";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Pilih Pelajaran";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);

@@ -350,6 +350,7 @@
             Controls.Add(tableLayoutPanel1);
             Controls.Add(tableLayoutPanel3);
             Name = "HasilQuiz";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HasilQuiz";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             tableLayoutPanel2.ResumeLayout(false);

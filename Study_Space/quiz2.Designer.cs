@@ -49,17 +49,17 @@
             button6 = new Button();
             button7 = new Button();
             label8 = new Label();
+            flowLayoutPanel6 = new FlowLayoutPanel();
             button9 = new Button();
             flowLayoutPanel5 = new FlowLayoutPanel();
-            flowLayoutPanel6 = new FlowLayoutPanel();
             tableLayoutPanel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             flowLayoutPanel3.SuspendLayout();
-            flowLayoutPanel5.SuspendLayout();
             flowLayoutPanel6.SuspendLayout();
+            flowLayoutPanel5.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -242,7 +242,7 @@
             button4.BackColor = Color.White;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.FromArgb(192, 0, 0);
+            button4.ForeColor = Color.DimGray;
             button4.Location = new Point(3, 29);
             button4.Name = "button4";
             button4.Size = new Size(916, 34);
@@ -270,7 +270,7 @@
             button6.BackColor = Color.White;
             button6.FlatStyle = FlatStyle.Flat;
             button6.Font = new Font("Century Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.Green;
+            button6.ForeColor = Color.DimGray;
             button6.Location = new Point(3, 109);
             button6.Name = "button6";
             button6.Size = new Size(916, 34);
@@ -297,12 +297,22 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Century Gothic", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.ForeColor = Color.IndianRed;
+            label8.ForeColor = Color.DimGray;
             label8.Location = new Point(3, 186);
             label8.Name = "label8";
             label8.Size = new Size(372, 23);
             label8.TabIndex = 17;
             label8.Text = "Belum tepat, 3÷5= 0,6, lalu x100= 60%";
+            // 
+            // flowLayoutPanel6
+            // 
+            flowLayoutPanel6.AutoSize = true;
+            flowLayoutPanel6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel6.Controls.Add(button9);
+            flowLayoutPanel6.Location = new Point(3, 212);
+            flowLayoutPanel6.Name = "flowLayoutPanel6";
+            flowLayoutPanel6.Size = new Size(922, 41);
+            flowLayoutPanel6.TabIndex = 17;
             // 
             // button9
             // 
@@ -328,16 +338,6 @@
             flowLayoutPanel5.Size = new Size(938, 40);
             flowLayoutPanel5.TabIndex = 16;
             // 
-            // flowLayoutPanel6
-            // 
-            flowLayoutPanel6.AutoSize = true;
-            flowLayoutPanel6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel6.Controls.Add(button9);
-            flowLayoutPanel6.Location = new Point(3, 212);
-            flowLayoutPanel6.Name = "flowLayoutPanel6";
-            flowLayoutPanel6.Size = new Size(922, 41);
-            flowLayoutPanel6.TabIndex = 17;
-            // 
             // quiz2
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -351,6 +351,7 @@
             Controls.Add(label2);
             Controls.Add(tableLayoutPanel1);
             Name = "quiz2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "quiz";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
@@ -361,8 +362,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             flowLayoutPanel3.ResumeLayout(false);
             flowLayoutPanel3.PerformLayout();
-            flowLayoutPanel5.ResumeLayout(false);
             flowLayoutPanel6.ResumeLayout(false);
+            flowLayoutPanel5.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
