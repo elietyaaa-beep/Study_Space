@@ -86,6 +86,7 @@
             textBox2.Location = new Point(42, 252);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
+            textBox2.PasswordChar = '•';
             textBox2.Size = new Size(321, 46);
             textBox2.TabIndex = 4;
             // 

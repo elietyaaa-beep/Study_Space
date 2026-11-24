@@ -482,6 +482,7 @@
             Name = "Pilih_Pelajaran";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pilih Pelajaran";
+            Load += Pilih_Pelajaran_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();

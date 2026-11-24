@@ -91,5 +91,10 @@ namespace Study_Space
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
         }
+
+        private void Pilih_Pelajaran_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
