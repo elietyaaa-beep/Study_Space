@@ -20,6 +20,7 @@ namespace Study_Space
         public Quiz1()
         {
             InitializeComponent();
+            label8.Text = string.Empty;
 
             // Berhenti otomatis hanya jika ini jendela terakhir yang ditutup.
             FormClosed += Navigasi.FormDitutup;
