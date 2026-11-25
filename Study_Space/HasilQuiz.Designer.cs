@@ -35,6 +35,9 @@
             tableLayoutPanel2 = new TableLayoutPanel();
             label4 = new Label();
             tableLayoutPanel3 = new TableLayoutPanel();
+            flowLayoutPanel3 = new FlowLayoutPanel();
+            button2 = new Button();
+            button3 = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
             flowLayoutPanel1 = new FlowLayoutPanel();
             pictureBox1 = new PictureBox();
@@ -43,9 +46,6 @@
             flowLayoutPanel4 = new FlowLayoutPanel();
             pictureBox3 = new PictureBox();
             button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            flowLayoutPanel3 = new FlowLayoutPanel();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
@@ -55,12 +55,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
+            flowLayoutPanel3.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            flowLayoutPanel3.SuspendLayout();
             flowLayoutPanel5.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -116,11 +116,11 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.FromArgb(91, 107, 140);
             label4.Location = new Point(3, 82);
             label4.Name = "label4";
-            label4.Size = new Size(179, 22);
+            label4.Size = new Size(194, 21);
             label4.TabIndex = 11;
             label4.Text = "Pecahan dan Persen";
             // 
@@ -144,6 +144,39 @@
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel3.Size = new Size(888, 221);
             tableLayoutPanel3.TabIndex = 12;
+            // 
+            // flowLayoutPanel3
+            // 
+            flowLayoutPanel3.AutoSize = true;
+            flowLayoutPanel3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            flowLayoutPanel3.BackColor = Color.FromArgb(230, 238, 254);
+            flowLayoutPanel3.Controls.Add(button2);
+            flowLayoutPanel3.Controls.Add(button3);
+            flowLayoutPanel3.Location = new Point(3, 133);
+            flowLayoutPanel3.Name = "flowLayoutPanel3";
+            flowLayoutPanel3.Size = new Size(882, 49);
+            flowLayoutPanel3.TabIndex = 16;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.FromArgb(230, 238, 254);
+            button2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(3, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(435, 43);
+            button2.TabIndex = 14;
+            button2.Text = "Materi";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Location = new Point(444, 3);
+            button3.Name = "button3";
+            button3.Size = new Size(435, 43);
+            button3.TabIndex = 15;
+            button3.Text = "Quiz";
+            button3.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -239,47 +272,14 @@
             button1.Text = "Keluar";
             button1.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(230, 238, 254);
-            button2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(3, 3);
-            button2.Name = "button2";
-            button2.Size = new Size(435, 43);
-            button2.TabIndex = 14;
-            button2.Text = "Materi";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button3.Location = new Point(444, 3);
-            button3.Name = "button3";
-            button3.Size = new Size(435, 43);
-            button3.TabIndex = 15;
-            button3.Text = "Quiz";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel3
-            // 
-            flowLayoutPanel3.AutoSize = true;
-            flowLayoutPanel3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            flowLayoutPanel3.BackColor = Color.FromArgb(230, 238, 254);
-            flowLayoutPanel3.Controls.Add(button2);
-            flowLayoutPanel3.Controls.Add(button3);
-            flowLayoutPanel3.Location = new Point(3, 133);
-            flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(882, 49);
-            flowLayoutPanel3.TabIndex = 16;
-            // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Century", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.FromArgb(91, 107, 140);
             label5.Location = new Point(54, 124);
             label5.Name = "label5";
-            label5.Size = new Size(539, 22);
+            label5.Size = new Size(536, 21);
             label5.TabIndex = 17;
             label5.Text = "Bagus! Baca materinya sekali lagi untuk hasil yang lebih baik.";
             // 
@@ -357,6 +357,7 @@
             tableLayoutPanel2.PerformLayout();
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel3.PerformLayout();
+            flowLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             flowLayoutPanel1.ResumeLayout(false);
@@ -364,7 +365,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             flowLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            flowLayoutPanel3.ResumeLayout(false);
             flowLayoutPanel5.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
