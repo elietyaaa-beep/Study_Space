@@ -81,5 +81,10 @@ namespace Study_Space
 
             return "Baca materinya sekali lagi, lalu coba kuisnya kembali.";
         }
+
+        private void HasilQuiz_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

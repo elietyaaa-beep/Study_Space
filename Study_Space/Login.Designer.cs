@@ -49,7 +49,7 @@
             panel1.Controls.Add(textBox1);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(label1);
-            panel1.Location = new Point(471, 130);
+            panel1.Location = new Point(0, 6);
             panel1.Name = "panel1";
             panel1.Size = new Size(420, 423);
             panel1.TabIndex = 0;
@@ -138,7 +138,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(243, 247, 255);
-            ClientSize = new Size(1344, 712);
+            ClientSize = new Size(424, 431);
             Controls.Add(panel1);
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;

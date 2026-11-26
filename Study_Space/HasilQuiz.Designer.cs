@@ -352,6 +352,7 @@
             Name = "HasilQuiz";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "HasilQuiz";
+            Load += HasilQuiz_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
